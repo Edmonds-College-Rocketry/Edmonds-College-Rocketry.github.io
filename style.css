@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Techy font */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #000080; /* Navy blue text */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #ffffff; /* White headings */
+    background-color: #000080; /* Navy blue background for headings */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p, a {
+    color: #000080; /* Navy blue paragraphs and links */
+    line-height: 1.6;
+}
+
+a:hover {
+    color: #ffffff; /* White links on hover */
+    background-color: #000080;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
